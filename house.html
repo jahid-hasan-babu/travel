@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details page</title>
+    <link rel="icon" href="assets/images/logo-red.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html">
+            <img src="assets/images/logo-red.png" class="logo">
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Popular Places</a></li>
+            <li><a href="house.html">Travel Outside</a></li>
+            <li><a href="listing.html">Online Pakages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+<div class="house-details">
+    <div class="house-title">
+        <h1>Wenge House</h1>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="far fa-star"></i>
+                <span>245 Reviews</span>
+            </div>
+            <div>
+                <p>Location: San Francisco, California, United States</p>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="gallery-img-1"><img src="assets/images/house-1.png"></div>
+        <div><img src="assets/images/house-2.png"></div>
+        <div><img src="assets/images/house-3.png"></div>
+        <div><img src="assets/images/house-4.png"></div>
+        <div><img src="assets/images/house-5.png"></div>
+    </div>
+    <div class="small-deatils">
+        <h2>Entire rental unit hosted by Brandon</h2>
+        <p>2 Guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom </p>
+        <h4>$ 100 / day</h4>
+    </div>
+    <hr class="line">
+    <form class="check-form">
+        <div>
+            <label>Check-in</label>
+            <input type="text" placeholder="Add date">
+        </div>
+        <div>
+            <label>Check-out</label>
+            <input type="text" placeholder="Add date">
+        </div>
+        <div class="guest-field">
+            <label>Guest</label>
+            <input type="text" placeholder="2 guest">
+        </div>
+        <button type="submit">Check Availabilitty</button>
+    </form>
+    <ul class="details-list">
+        <li><i class="fa-solid fa-house"></i></i>Entire Home 
+            <span>You will entire the flat for you.</span>
+        </li>
+        <li><i class="fa-solid fa-paintbrush"></i>Enhanced Clean 
+            <span>This host has committed to staybanb,s cleaning procces.</span>
+        </li>
+        <li><i class="fa-solid fa-location-dot"></i>Great Location
+            <span>90% of recent guest have the locatoin a 5 star rating.</span>
+        </li>
+        <li><i class="fa-solid fa-heart"></i>Great Cheak-in Experience
+            <span>1000% of recent guest have the  cheak-in procces of 5 star rating.</span>
+        </li>
+    </ul>
+    <hr class="line">
+    <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe repellendus rem quas quasi architecto dolores nostrum deleniti temporibus, sed cupiditate! Dolores maiores a asperiores voluptate? Error qui placeat esse maxime facere temporibus necessitatibus dolores perspiciatis numquam adipisci repellat fugit eius rem vel, soluta recusandae. Dicta obcaecati labore neque iste nam.</p>
+    <hr class="line">
+    <div class="map">
+        <h3>Location on map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.17073743168!2d-122.50764016446877!3d37.757679275525774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1661405802668!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <b> San Francisco, California, United States</b>
+        <p>It`s like a home away from home.</p>
+    </div>
+    <hr class="line">
+    <div class="host">
+        <img src="assets/images/host.png">
+        <div>
+            <h2>Hosted by Brandon</h2>
+            <p>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </span>&nbsp; &nbsp; 25 Reviews &nbsp; &nbsp; Response rate 100% &nbsp 
+                &nbsp; Response time: 60 min
+            </p>
+        </div>
+    </div>
+    <a href="#" class="contact-host">Contact Host</a>
+</div>
+<div class="container">
+    <div class="footer">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <hr>
+        <p>Copyright  &copy; 2022, Jahid hasan.</p>
+    </div>
+</div>
+<script>
+    var navBar = document.getElementById("navBar")
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu")
+    }
+</script>
+</body>
+</html>
